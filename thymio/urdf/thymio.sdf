@@ -146,9 +146,7 @@
         <pose>0.07157 -0.01155 0.009 3.14159 1.57079 2.89848</pose>
         <frame name='ground_right_link'/>
       </sensor>
-    </link>
-    
-    <link name='proximity_center_link'>
+
       <sensor name='proximity_center_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -191,9 +189,7 @@
         <frame name='proximity_center_link'/>
         <pose>0.08 0 0.035 0 -0 0</pose>
       </sensor>
-    </link>
-      
-    <link name='proximity_center_left_link'>
+
       <sensor name='proximity_center_left_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -235,9 +231,7 @@
         <pose>0.0756 0.0261 0.035 0 -0 0.33161</pose>
         <frame name='proximity_center_left_link'/>
       </sensor>
-    </link>
-      
-    <link name='proximity_left_link'>
+
       <sensor name='proximity_left_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -279,9 +273,6 @@
         <pose>0.063 0.0493 0.035 0 -0 0.66323</pose>
         <frame name='proximity_left_link'/>
       </sensor>
-    </link>
-    
-    <link name='proximity_rear_left_link'>
       <sensor name='proximity_rear_left_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -323,9 +314,6 @@
         <pose>-0.03 0.0305 0.035 0 -0 3.14159</pose>
         <frame name='proximity_rear_left_link'/>
       </sensor>
-    </link>
-    
-    <link name='proximity_rear_right_link'>
       <sensor name='proximity_rear_right_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -367,9 +355,7 @@
         <pose>-0.03 -0.0305 0.035 0 -0 3.14159</pose>
         <frame name='proximity_rear_right_link'/>
       </sensor>
-    </link>
-    
-    <link name='proximity_right_link'>
+
       <sensor name='proximity_right_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
@@ -411,9 +397,7 @@
         <pose>0.063 -0.0493 0.035 0 0 -0.66323</pose>
         <frame name='proximity_right_link'/>
       </sensor> 
-    </link>
-    
-    <link name='proximity_center_right_link'>
+
       <sensor name='proximity_center_right_sensor' type='ray'>
         <visualize>1</visualize>
         <update_rate>10</update_rate>
